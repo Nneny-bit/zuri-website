@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 800px;
+    background-image: url('hero-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    text-align: center;
+    margin: 69px 0;
+    
+}
+h1{
+    text-align: center;
+    padding: 40px 0;
+}
+.section p{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.section a{
+    text-decoration: none;
+    color: red;
+}
+.button1 a{
+    background-color: red;
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 1px solid red;
+    margin-top: 30%;
+}
+.button2 a{
+    background-color: transparent;
+    display:inline-block;
+    color: red;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 1px solid red;
+    margin-top: 27%;
+    margin-left: 35px;
+}
+.button{
+    display: flex;
+    padding: 30px ;
+    align-items: center ;
+    justify-content:center;
+    margin-bottom: 20%;
+    
+}
+.button1 a:hover{
+    background-color: transparent;
+    color: red;
+}
+.button2 a:hover{
+    background-color: red;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 30% 0 2%;
+}
+.para1{
+    text-align: center;
+    color: #514949;
+    font-size: 24px;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-top: 8px;
+    margin-bottom: 64px;
+
+}
+
+.box-container {
+    display: flex;
+    background-image: url('dot.png');
+    width: 100%;
+    justify-content: center;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;  
+    
+    
+}
+.red{
+    color: red;
+    font-size: 16px;
+}
+.box{
+    
+    margin: 20px;
+    
+    font-family: sans-serif;
+    
+}
+.img{
+    margin-bottom: 48px;
+}
+.para2{
+    color:#514949;
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.mail {
+    text-decoration: none;
+    color: red;
+}
+.para4{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:#514949;
+    padding-bottom: 97px;
+}
+hr{
+    margin: 0 60px 60px 60px;
+    font-weight: 800px;
+}
+
+/*INDUSTRY.HTML STYLING*/
+
+header{
+    display: flex;
+    background-color: #514949;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    justify-content: space-between;
+}
+
